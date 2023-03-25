@@ -1,0 +1,5 @@
+https://www.fraporitmos.com/react-3d
+
+npx create-react-app render-3d
+
+yarn add @google/model-viewer
