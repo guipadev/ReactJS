@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background: url("./images/bg2.jpg");
+  background-repeat: no-repeat;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+header:before {
+  content: "";
+  width: 100%;
+  height: 40vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#1f2937), to(#111927));
+  background-image: linear-gradient(90deg, #1f2937, #111927);
+  opacity: 0.8;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.title {
+  padding: 10px;
+  color: #82bf45;
+  font-size: 5rem;
+  font-family: shlop;
+}
+
+.text {
+  color: #17a3ac;
+  font-size: 17px;
+  font-family: shlop;
+}
+
+.characters {
+  margin-top: 20px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box {
+  width: 30%;
+  background-color: #1f2937;
+  margin: 10px;
+  border-radius: 4px;
+  -webkit-box-shadow: 4px 5px #d9e5d6;
+          box-shadow: 4px 5px #d9e5d6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box img {
+  width: 50%;
+}
+
+.box .character {
+  width: 100%;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box .name {
+  font-family: Shlog;
+  font-size: 40px;
+  color: #82bf45;
+}
+
+.box .specie {
+  text-align: center;
+  padding: 5px;
+  background-color: #364150;
+  color: #ffff;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 19px;
+  margin: 3px 0px;
+  font-family: Shlop;
+}
+
+.box .status {
+  text-align: center;
+  color: #ffff;
+  padding: 4px;
+  background-color: #364150;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 9px;
+  margin: 3px 0px;
+}

@@ -1,0 +1,8 @@
+/*
+Estilos en la barra de navegación se vea bien y permita a los usuarios sepan exactamente en qué página se encuentran actualmente: 👇
+*/
+.active {
+    color: #0b5ed7 !important;
+    font-weight: bold;
+    border-bottom: 3px solid #0b5ed7;
+}
