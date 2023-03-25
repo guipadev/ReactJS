@@ -1,0 +1,23 @@
+.item {
+  height: 300px;
+  width: 110px;
+  padding: 10px;
+}
+
+.item img {
+  height: 100%;
+  width: 100%;
+  padding: auto;
+  pointer-events: none; /*No poder seleccionar la img para arrastrala*/
+}
+
+.slider {
+  display: flex;
+  cursor: grab;
+}
+
+.slider-container {
+  margin: 0 auto;
+  overflow-x: hidden;
+  border: 1px solid red;
+}
