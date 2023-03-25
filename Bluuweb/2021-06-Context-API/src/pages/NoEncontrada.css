@@ -1,0 +1,32 @@
+.no-encontrada{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgb(4, 32, 56);
+    background-image:url('https://s32.postimg.org/c82wadpj9/404.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.error{
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+    font-weight: bold;
+    width: 20%;
+    font-size: 2.5rem;
+    color: #e73617;
+    line-height: 2rem;
+}
+
+.message{
+    display: block;
+    font-size: 2rem;
+    color: #59eb15;
+    margin-top: 35px;
+}
