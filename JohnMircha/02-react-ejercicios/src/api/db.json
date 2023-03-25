@@ -1,0 +1,49 @@
+{
+  "santos": [
+    {
+      "id": 1,
+      "name": "Seiya",
+      "constellation": "Pegaso"
+    },
+    {
+      "id": 2,
+      "name": "Shiryu",
+      "constellation": "Dragón"
+    },
+    {
+      "id": 3,
+      "name": "Hyoga",
+      "constellation": "Cisne"
+    },
+    {
+      "id": 4,
+      "name": "Shun",
+      "constellation": "Andrómeda"
+    },
+    {
+      "id": 6,
+      "name": "Mú",
+      "constellation": "Aries"
+    },
+    {
+      "id": 7,
+      "name": "Saga",
+      "constellation": "Geminis"
+    },
+    {
+      "name": "Shura",
+      "constellation": "Capricornio",
+      "id": 1617237562207
+    },
+    {
+      "name": "shiru",
+      "constellation": "draogon",
+      "id": 1648726209617
+    },
+    {
+      "name": "doko",
+      "constellation": "libra",
+      "id": 1648728180032
+    }
+  ]
+}
