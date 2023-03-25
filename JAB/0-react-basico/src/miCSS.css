@@ -1,0 +1,21 @@
+.contenedor {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.caja {
+  width: 30%;
+  background-color: goldenrod;
+  font-size: 2em;
+  border-radius: 12px;
+  border: 2px solid orangered;
+  color: blueviolet;
+  text-align: center;
+  padding: 12px;
+  margin: 20px;
+}
+
+img {
+  width: 100%;
+}
+
