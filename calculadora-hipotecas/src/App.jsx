@@ -18,7 +18,17 @@ import Result from "./Components/Result";
 import SliderSelect from "./Components/SliderSelect";
 import TenureSelect from "./Components/TernureSelect";
 
+/**
+ * declaramos un estado para almacenar el valor de los controles deslizantes usando
+ * el hook useState.
+ * Pasaremos el valor inicial del estado como {} dentro del hook useState,
+ * porque estamos almacenando nuestros datos como un objeto.
+ */
 function App() {
+  /**
+   * useState para crear una nueva variable de estado llamada data
+   * y una función llamada setData que podemos usar para actualizar el estado.
+   */
   const [data, setData] = useState({
     homeValue: 3000,
     downPayment: 3000 * 0.2,
@@ -33,7 +43,7 @@ function App() {
       <Container maxWidth="xl" sx={{ marginTop: 4 }}>
         <Grid container spacing={5} alignItems="center">
           <Grid item xs={12} md={6}>
-            {/* this is where we write the code  👇 */}
+            {/* pasaremos el estado data y setData como accesorio al componente SliderSelect 👇*/}
             <SliderSelect data={data} setData={setData} />
 
             <TenureSelect />
