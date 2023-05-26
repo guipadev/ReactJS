@@ -45,11 +45,11 @@ function App() {
           <Grid item xs={12} md={6}>
             {/* pasaremos el estado data y setData como accesorio al componente SliderSelect 👇*/}
             <SliderSelect data={data} setData={setData} />
-
-            <TenureSelect />
+            {/* estado data y setData como accesorio al TenureSelect 👇 */}
+            <TenureSelect data={data} setData={setData} />
           </Grid>
           <Grid item xs={12} md={6}>
-            <Result />
+            <Result data={data} />
           </Grid>
         </Grid>
       </Container>
