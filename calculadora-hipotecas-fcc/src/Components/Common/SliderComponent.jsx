@@ -22,25 +22,18 @@ const SliderComponent = ({
   steps,
 }) => {
   {
-    /*
-      Mostrar los valores mínimo y máximo del control deslizante. 
-      Usaremos el Stack componente de MUI para apilar los componentes horizontalmente. 
-      direction="row" es la abreviatura de flex-direction: row. 
-      justifyContent="space-between" es la abreviatura de justify-content: space-between.
-    */
+    /* Mostrar los valores mínimo y máximo del control deslizante. Stack componente de MUI para apilar los componentes horizontalmente. 
+      direction="row" es la abreviatura de flex-direction: row. justifyContent="space-between" es la abreviatura de justify-content: space-between.
+  */
   }
+
   return (
-    <Stack direction="row" justifyContent="space-between">
-      <Typography variant="caption" color="text.secondary">
-        {unit} {min}
+    <Stack gap={1}>
+      <Typography variant="subtitle2">{label}</Typography>
+      <Typography variant="h5">
+        {unit} {amount}
       </Typography>
-      <Typography variant="caption" color="text.secondary">
-        {unit} {max}
-      </Typography>
-      {/* 
-        Mostrar el control deslizante. 
-        Pasaremos los accesorios al componente deslizante de esta manera: 👇 
-      */}
+      {/* Mostrar el control deslizante. Pasaremos los accesorios al componente deslizante de esta manera: 👇 */}
       <Slider
         min={min}
         max={max}
@@ -52,6 +45,14 @@ const SliderComponent = ({
         marks
         step={steps}
       />
+      <Stack direction="row" justifyContent="space-between">
+        <Typography variant="caption" color="text.secondary">
+          {unit} {min}
+        </Typography>
+        <Typography variant="caption" color="text.secondary">
+          {unit} {max}
+        </Typography>
+      </Stack>
     </Stack>
   );
 };

@@ -9,10 +9,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
  */
 function Result({ data }) {
   const { homeValue, loanAmount, loanTerm, interestRate } = data;
-
-  /**
-   * Escribiremos todas estas cosas que nos ayudarán a hacer el cálculo 👇
-   */
+  // Nos ayudarán a hacer el cálculo 👇
   const totalLoanMonths = loanTerm * 12;
   const interestPerMonth = interestRate / 100 / 12;
   const monthlyPayment =
