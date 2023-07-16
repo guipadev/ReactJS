@@ -30,6 +30,20 @@ const theme = createTheme({
                 },
             },
         },
+        MuiAlert: {
+            defaultProps: {
+                style: {
+                    borderRadius: "0.8em",
+                    fontSize: "1em",
+                },
+            },
+            styleOverrides: {
+                standardError: {
+                    border: `1px solid ${themePalette.ERROR_MAIN}`,
+                    background: themePalette.BG_ERROR_MAIN,
+                },
+            },
+        }
     }
 })
 
