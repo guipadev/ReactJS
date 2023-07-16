@@ -7,3 +7,6 @@
 ```npm install react-router-dom@6```
 
 ```npm install @mui/material @emotion/react @emotion/styled @mui/icons-material```
+
+3. Instalar libreria validacion de formulairio
+``ǹpm install yup``

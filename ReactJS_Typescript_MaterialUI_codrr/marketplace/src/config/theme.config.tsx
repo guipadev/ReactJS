@@ -42,6 +42,10 @@ const theme = createTheme({
                     border: `1px solid ${themePalette.ERROR_MAIN}`,
                     background: themePalette.BG_ERROR_MAIN,
                 },
+                standardSuccess: {
+                    border: `1px solid ${themePalette.SUCCES_MAIN}`,
+                    background: themePalette.BG_SUCCES_MAIN,
+                },
             },
         }
     }
