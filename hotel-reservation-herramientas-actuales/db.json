@@ -1,0 +1,34 @@
+{
+    "hotels": [
+        {
+            "id": 1,
+            "name": "Hotel Ritz",
+            "description": "Hotel de lujo",
+            "image": "/img/hotel1.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Hotel Paradise",
+            "description": "Hotel frente a la playa",
+            "image": "/img/hotel2.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Hotel Montaña",
+            "description": "Refugio en la montaña",
+            "image": "/img/hotel3.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Hotel Elegance",
+            "description": "Estilo clásico",
+            "image": "/img/hotel4.jpeg"
+        },
+        {
+            "id": 5,
+            "name": "Hotel Vista",
+            "description": "Vistas panorámicas",
+            "image": "/img/hotel5.jpeg"
+        }
+    ]
+}
