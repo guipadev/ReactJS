@@ -9,7 +9,7 @@ type HeaderProps = {
 export const HeaderComponent: React.FC<HeaderProps> = ({ 
     title, 
     description, 
-    element 
+    element,
 }) => {
     return (
         <div>

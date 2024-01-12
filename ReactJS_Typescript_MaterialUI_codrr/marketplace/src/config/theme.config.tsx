@@ -7,6 +7,7 @@ type ThemeProp = {
 }
 
 
+
 const theme = createTheme({
     palette: {
         mode: "dark",
